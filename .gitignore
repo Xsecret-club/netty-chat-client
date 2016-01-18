@@ -1,8 +1,19 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+
+# IDEA related
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+
+# Mac OS X clutter
+*.DS_Store
+
+#Windwos clutter
+Thumb.db
+
+# Ingore files in app module
+app/build/
